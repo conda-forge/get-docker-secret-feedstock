@@ -10,7 +10,6 @@ Feedstock license: BSD 3-Clause
 Summary: Utility function to fetch docker secrets/envvars.
 
 
-
 Current build status
 ====================
 
