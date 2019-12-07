@@ -1,5 +1,5 @@
 {% set name = "get-docker-secret" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5f86039da59e9124ba4f9cb295851f91b136e6d044ae468d324aab689137f69c
+  sha256: 684b35a792db56ceb5d52ee015670ad7710625ab20c9ff855ae88a23ceb5fe3a
 
 build:
   noarch: python
